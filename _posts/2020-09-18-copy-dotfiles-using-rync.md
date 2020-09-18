@@ -1,13 +1,17 @@
-# Copy dotfiles using rsync
+---
+layout: post
+title: Copy dotfiles using rsync
+---
+
 
 Here's a simple command for copying dot files using `rsync`.
 
-## Command
+### Command
 ```
 rsync -av --progress --exclude={'.cache','.local'} ~/.[^.]* /destination_path
 ```
 
-## Command breakdown
+### Command breakdown
 |Part | Description |
 |-----|-------------|
 |rsync| The rsync command|
@@ -18,11 +22,11 @@ rsync -av --progress --exclude={'.cache','.local'} ~/.[^.]* /destination_path
 | ~/.[^.]* | match dotfiles in the home directory|
 | /destination_path | path to copy files to |  
 
-## Documentation
+### Documentation
 [rsync] rync(1) man page (online html)  
 https://download.samba.org/pub/rsync/rsync.1  
 
-## Alternative solution
+### Alternative solution
 [GitHub] Dotsync  
 https://github.com/dotphiles/dotsync  
 >>> dotsync keeps your local dotfiles in sync with a git repository and keeps multiple remote machines in sync, 
