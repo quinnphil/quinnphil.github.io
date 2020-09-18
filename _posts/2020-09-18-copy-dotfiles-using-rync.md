@@ -18,9 +18,9 @@ rsync -av --progress --exclude={'.cache','.local'} ~/.[^.]* /destination_path
 | -a | archive mode.  <br><ul><li>Recursive</li><li>copy symlinks as symlinks</li><li>preserve permissions</li><li>preserve modification times</li><li>preserve group</li><li>preserve owner (super-user only)</li><li>preserve owner (super-user only)</li><li>preserve device files (super-user only)</li>|
 | -v| verbose|
 | --progress | show progress during transfer |
-| --exclude | exclude files matching the patterns provided|
-| `~/.[^.]*` | match dotfiles in the home directory|
-| /destination_path | path to copy files to |  
+| --exclude | exclude files matching the patterns provided |
+| `~/.[^.]*` | match dotfiles in the home directory |
+| `/destination_path` | path to copy files to |  
 
 ### Documentation
 [rsync] rync(1) man page (online html)  
