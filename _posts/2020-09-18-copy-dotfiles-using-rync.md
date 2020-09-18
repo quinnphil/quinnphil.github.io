@@ -19,7 +19,7 @@ rsync -av --progress --exclude={'.cache','.local'} ~/.[^.]* /destination_path
 | -v| verbose|
 | --progress | show progress during transfer |
 | --exclude | exclude files matching the patterns provided|
-| ~/.[^.]* | match dotfiles in the home directory|
+| `~/.[^.]*` | match dotfiles in the home directory|
 | /destination_path | path to copy files to |  
 
 ### Documentation
