@@ -29,7 +29,7 @@ https://download.samba.org/pub/rsync/rsync.1
 ### Alternative solution
 [GitHub] Dotsync  
 https://github.com/dotphiles/dotsync  
->>> dotsync keeps your local dotfiles in sync with a git repository and keeps multiple remote machines in sync, 
+> dotsync keeps your local dotfiles in sync with a git repository and keeps multiple remote machines in sync, 
 either with them pulling from the git repo or pushed via rsync
 
 
