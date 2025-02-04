@@ -90,16 +90,13 @@ ninja.data = [{
           window.location.href = "/blog/2025/powershell-bulk-rename/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+    },{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
+          title: ':sparkles: New website launched. Hosted on Github Pages. Jekyll-based with Al folio theme....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
