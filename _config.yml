@@ -192,8 +192,10 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _drafts/
-  - _bibliography/
+  - _excludes/            # files previously in _includes
+  - _drafts/              # drafts
+  - _bibliography/        # publications
+  - _pages/publications.md # publications
 keep_files:
   - CNAME
   - .nojekyll
@@ -210,7 +212,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
