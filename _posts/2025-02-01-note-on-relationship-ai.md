@@ -5,7 +5,7 @@ date: 2025-02-01T15:51:06+0000 GMT
 categories: blog
 tags:
   - AI
-  - Ethics
+  - ethics
   - philosophy
 featured: true
 ---
