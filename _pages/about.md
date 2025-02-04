@@ -6,7 +6,7 @@ subtitle: Technical Data Analyst
 
 profile:
   align: right
-  image: logo/phil-quinn.png
+  image: logo/phil_quinn.png
   image_circular: fakse # crops the image to make it circular
   more_info: >
     <i class="fas fa-location"></i>Medway, Kent, UK
