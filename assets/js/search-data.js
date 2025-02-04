@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-submenus",
-          title: "submenus",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_pages/dropdown/";
-          },
         },{id: "post-powershell-bulk-rename-file-extension",
       
         title: "Powershell - Bulk rename file extension",
@@ -59,12 +52,7 @@ ninja.data = [{
           window.location.href = "/blog/2025/note-on-relationship-ai/";
         
       },
-    },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
+    },{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
           title: ':sparkles: New website launched. Hosted on Github Pages. Jekyll-based with Al folio theme....',
           description: "",
           section: "News",},{id: "projects-project-2",
