@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Summary of my Github profile -- and some public-facing repos.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -53,6 +53,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/powershell-bulk-rename/";
+        
+      },
+    },{id: "post-note-on-the-relationship-between-artificial-intelligence-and-human-intelligence",
+      
+        title: "Note on the Relationship Between Artificial Intelligence and Human Intelligence",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/note-on-relationship-ai/";
         
       },
     },{id: "news-a-long-announcement-with-details",
