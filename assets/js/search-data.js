@@ -52,7 +52,12 @@ ninja.data = [{
           window.location.href = "/blog/2025/note-on-relationship-ai/";
         
       },
-    },{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
+    },{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-02-03-Du-Bois-Visualisation-Challenge/";
+            },},{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
           title: ':sparkles: New website launched. Hosted on Github Pages. Jekyll-based with Al folio theme....',
           description: "",
           section: "News",},{id: "projects-project-2",
