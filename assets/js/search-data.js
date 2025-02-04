@@ -52,15 +52,15 @@ ninja.data = [{
           window.location.href = "/blog/2025/note-on-relationship-ai/";
         
       },
-    },{id: "news-",
-          title: '',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-02-03-Du-Bois-Visualisation-Challenge/";
-            },},{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
+    },{id: "news-sparkles-new-website-launched-hosted-on-github-pages-jekyll-based-with-al-folio-theme",
           title: ':sparkles: New website launched. Hosted on Github Pages. Jekyll-based with Al folio theme....',
           description: "",
-          section: "News",},{id: "projects-project-2",
+          section: "News",},{id: "news-the-2025-du-bois-visualization-challenge-started-this-week",
+          title: 'The 2025 Du Bois Visualization Challenge started this week',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/Du-Bois-Visualisation-Challenge/";
+            },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
