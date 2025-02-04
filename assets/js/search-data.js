@@ -79,18 +79,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-powershell-bulk-rename",
-      
-        title: "Powershell Bulk Rename",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/powershell-bulk-rename/";
-        
-      },
-    },{id: "post-a-post-with-image-galleries",
+            },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -385,6 +374,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2015/math/";
+        
+      },
+    },{id: "post-powershell-bulk-rename-file-extension",
+      
+        title: "Powershell - Bulk rename file extension",
+      
+      description: "Powershell command for bulk changing file extensions.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2015/powershell-bulk-rename/";
         
       },
     },{id: "post-a-post-with-code",
