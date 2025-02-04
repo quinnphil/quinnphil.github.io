@@ -5,7 +5,7 @@ date: 2025-02-04T11:45:03+0000 GMT
 description: Powershell command for bulk changing file extensions.
 tags: powershell windows
 categories: snippets blog
-featured: true
+featured: false
 ---
 Powershell command for bulk changing file extensions.
 ```powershell

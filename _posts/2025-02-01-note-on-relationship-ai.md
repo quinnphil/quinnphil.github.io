@@ -7,6 +7,7 @@ tags:
   - AI
   - Ethics
   - philosophy
+featured: true
 ---
 
 The Vatican's *Dicastery for the Doctrine of the Faith* and the *Dicastery for Culture and Education* have released a co-issued doctrinal note entitled Antiqua et nova (Ancient and new). This  This note addresses the anthropological and ethical challenges raised by AI.
