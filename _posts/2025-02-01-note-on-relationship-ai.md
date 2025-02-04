@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Note on the Relationship Between Artificial Intelligence and Human Intelligence"
-date: 2025-02-04T15:51:06+0000 GMT
+date: 2025-02-01T15:51:06+0000 GMT
 categories: blog
 tags:
   - AI
