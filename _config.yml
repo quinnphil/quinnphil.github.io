@@ -155,7 +155,9 @@ collections:
   recipes:
     output: true
     permalink: /:collection/:title/
-
+  reviews:
+    output: true
+    permalink: /:collection/:title/
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
