@@ -88,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: Thoughts & interests
+blog_description: thoughts & interests
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -150,6 +150,9 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
+    output: true
+    permalink: /:collection/:title/
+  recipes:
     output: true
     permalink: /:collection/:title/
 
