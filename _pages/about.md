@@ -9,7 +9,7 @@ profile:
   image: logo/phil_quinn.png
   image_circular: fakse # crops the image to make it circular
   more_info: >
-    <i class="fas fa-location"></i>Medway, Kent, UK
+    <i class="fas fa-location"></i> Medway, Kent, UK
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,7 +24,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hello <i class="fa-solid fa-hand-wave"></i>
 
 Welcome to my website. 
 
-Here you will find my [blog](/blog) and [portfolio](/portfolio).  Both are a mix of things that interest me both personally and professionally.
+Here you will find my [blog](/blog) and [portfolio](/portfolio), where I share both personal passions and professional work -- a blend of content reflecting my diverse interests across various domains.
