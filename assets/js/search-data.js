@@ -67,11 +67,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/Du-Bois-Visualisation-Challenge/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
@@ -111,7 +106,12 @@ ninja.data = [{
           title: 'FSA Ratings for Medway',
           description: "Food Standard Agency ratings for organisations in Medway",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/FSA-Ratings-for-Medway/";
+              window.location.href = "/projects/project_fsa_ratings_for_medway/";
+            },},{id: "projects-reading-excel-files-with-openpyxl",
+          title: 'Reading Excel files with openpyxl',
+          description: "Tutorial about reading unusual Excel files into pandas dataframes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tutorial_reading_excel_files_with_openpyxl/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
