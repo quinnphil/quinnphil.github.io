@@ -4,7 +4,7 @@ title: FSA Ratings for Medway
 description: Food Standard Agency ratings for organisations in Medway
 img: assets/img/project/llio-angharad-AKxNTx-QGhw-unsplash.jpg
 importance: 1
-category: interests
+category: medway
 ---
 Photo by <a href="https://unsplash.com/@llioangharad?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Llio Angharad</a> on <a href="https://unsplash.com/photos/burger-with-cheese-and-lettuce-AKxNTx-QGhw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
