@@ -5,7 +5,7 @@ permalink: /tutorials/
 description: Tutorials and how-to documents
 nav: true
 nav_order: 4
-display_categories: [tutorials]
+display_categories: [tutorial]
 horizontal: false
 ---
 
