@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-tutorials",
+          title: "tutorials",
+          description: "Tutorials and how-to documents",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/tutorials/";
+          },
         },{id: "post-powershell-bulk-rename-file-extension",
       
         title: "Powershell - Bulk rename file extension",
