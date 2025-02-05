@@ -1,0 +1,36 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.organisations %}
+      {% for organisation in page.organisations %}
+        <hr>
+        <div class="profile float-{% if organisation.align == 'left' %}left{% else %}right{% endif %}">
+          {% if organisation.image %}
+            {% assign organisation_image_path = organisation.image | prepend: 'assets/img/' %}
+            {% if organisation.image_circular %}
+              {% assign organisation_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign organisation_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=organisation_image_path class=organisation_image_class sizes=sizes alt=organisation.image %}
+          {% endif %}
+          {% if organisation.more_info %}
+            <div class="more-info">{{ organisation.more_info }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if organisation.content %}
+            {% capture organisation_content %}{% include_relative {{ organisation.content }} %}{% endcapture %}
+            {{ organisation_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
