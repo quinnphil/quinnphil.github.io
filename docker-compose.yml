@@ -20,3 +20,8 @@ services:
     environment:
       - JEKYLL_ENV=development
     # command: jekyll serve --force_polling --drafts
+    develop:
+      watch:
+          - action: sync
+            path: .
+            target: /src/jekyll
