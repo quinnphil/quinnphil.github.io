@@ -8,7 +8,16 @@ layout: page
       {% for organisation in page.organisations %}
         {% assign organisation_logo_path = organisation.logo | prepend: '/assets/img/' %}
           <div>
-          <img src="{{ organisation_logo_path }}"  alt="{{organisation.name}} logo" />
+           <!-- Logo -->
+           {%
+            include figure.liquid
+            loading="eager"
+            path=organisation_logo_path
+            sizes = "(maxwidth: 200px) 200px"
+            class="preview z-depth-1 rounded"
+            zoomable=false
+            alt=organisation.name
+          %}
           {{ organisation.name }}
           {{ organisation.url }}
           {{ organisation.description }}

@@ -17,11 +17,11 @@ organisations:
     decription: "Ticketmaster is the world's largest ticket distribution company with over 10,000 clients."
   - name: "Salesforce"
     url: "salesforce.com"
-    logo: /logo/salesforce.png
+    logo: /logo/salesforce.svg
     decription: "Salesforce are a cloud computing and enterprise Software-as-a-Service company.  They were ranked as the world’s #1 CRM provider by IDC (International Data Corporation) in 2024."
   - name: "IMG Arena"
     url: "https://www.imgarena.com/"
-    logo: /logo/img_arena.png
+    logo: /logo/img_arena.svg
     decription: "IMG ARENA make use of official sports data to deliver fan-centric experiences."
   - name: "Watchfinder & Co."
     url: "https://www.watchfinder.co.uk/"
@@ -41,11 +41,7 @@ organisations:
     decription: "A world-class engineering services and nuclear organization"
   - name: "Department for Transport"
     url: "https://www.gov.uk/government/organisations/department-for-transport"
-    logo: /logo/dft.png
-    decription: "The Department for Transport (DfT) is ministerial department responsible for the English transport network."
-  - name: "Department for Transport"
-    url: "https://www.gov.uk/government/organisations/department-for-transport"
-    logo: /logo/dft.png
+    logo: /logo/dft.svg
     decription: "The Department for Transport (DfT) is ministerial department responsible for the English transport network."
   - name: "The Charity Commission"
     url: "https://www.gov.uk/government/organisations/charity-commission"
@@ -53,7 +49,7 @@ organisations:
     decription: "The Charty Commision register and regulate charities in England and Wales, to ensure that the public can support charities with confidence."
   - name: "Swindon Borough Council"
     url: "https://www.swindon.gov.uk/"
-    logo: /logo/swindon_council.png
+    logo: /logo/swindon_borough_council.svg
     decription: "Local authority in Wiltshire, England"
   - name: "Equiinet"
     url: "https://www.equiinet.com/about"
@@ -61,7 +57,9 @@ organisations:
     decription: "Equiinet provide managed router solutions to businesses. "
   - name: "npower"
     url: "https://www.eonnext.com/npower-information"
-    logo: /logo/swindon_council.png
+    logo: /logo/npower.png
     decription: "Npower Limited was a British supplier of gas and electricity. It has been a subsidiary of E.ON UK since January 2019."
 
 ---
+
+This page is a work in progress.
