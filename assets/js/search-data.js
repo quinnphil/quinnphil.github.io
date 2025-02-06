@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Summary of my Github profile -- and some public-facing repos.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-tutorials",
           title: "tutorials",
           description: "Tutorials and how-to documents",
@@ -39,10 +32,17 @@ ninja.data = [{
           },
         },{id: "nav-organisations",
           title: "organisations",
-          description: "Organisations I have been employed by, or worked closely with",
+          description: "Organisations I have worked with.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/organisations/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Summary of my Github profile -- and some public-facing repos.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
           },
         },{id: "post-powershell-bulk-rename-file-extension",
       
