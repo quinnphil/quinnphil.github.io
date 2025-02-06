@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/tutorials/";
           },
+        },{id: "nav-reviews",
+          title: "reviews",
+          description: "Reviews of products and services I have used.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/reviews/";
+          },
         },{id: "nav-organisations",
           title: "organisations",
           description: "Organisations I have worked with.",
@@ -37,14 +44,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/organisations/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Summary of my Github profile -- and some public-facing repos.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "post-powershell-bulk-rename-file-extension",
+        },{id: "dropdown-recipes",
+              title: "recipes",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-repos",
+              title: "repos",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "post-powershell-bulk-rename-file-extension",
       
         title: "Powershell - Bulk rename file extension",
       
