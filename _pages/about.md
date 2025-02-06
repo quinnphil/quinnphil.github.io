@@ -29,3 +29,5 @@ Hello <i class="fa-solid fa-hand-wave"></i>
 Welcome to my website. 
 
 Here you will find my [blog](/blog) and [portfolio](/portfolio), where I share both personal passions and professional work -- a blend of content reflecting my diverse interests across various domains.
+
+This [Jekyll](https://jekyllrb.com/) based website is hosted on [GitHub Pages](https://pages.github.com/).  The theme is [al-folio](https://github.com/alshedivat/al-folio), a simply, responsive Jekyll theme aimed at academics.

@@ -1,27 +1,97 @@
 ---
 layout: page
 ---
-<div class="post">
-  <article>
+
+<style>
+
+/* Create a responsive, centered, three-column grid. */
+.card-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #ffffff;
+  text-align: left;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-perspective: 20em;
+  perspective: 20em;
+}
+.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.card img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+.card figcaption {
+  padding: 20px;
+}
+.card h3,
+.card p {
+  margin: 0;
+}
+.card h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.card p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.card a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+</style>
+<div class="page">
   <hr>
+
+  <section class="card-container">
     {% if page.organisations %}
       {% for organisation in page.organisations %}
         {% assign organisation_logo_path = organisation.logo | prepend: '/assets/img/' %}
-          <div>
-           <!-- Logo -->
+        <div class="card">
+        <!-- Logo -->
            {%
             include figure.liquid
             loading="eager"
             path=organisation_logo_path
             sizes = "(maxwidth: 200px) 200px"
-            class="preview z-depth-1 rounded"
+            class="preview z-depth-1"
             zoomable=false
             alt=organisation.name
           %}
-          {{ organisation.name }}
-          {{ organisation.url }}
-          {{ organisation.description }}
-      </div>
+          <h1>{{ organisation.name }}</h1>
+          <p>{{ organisation.description }}</p>
+          <p>{{ organisation.url }}</p>
+	      </div>
       {% endfor %}
 
         <div class="clearfix">
