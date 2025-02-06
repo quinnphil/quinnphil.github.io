@@ -153,9 +153,13 @@ collections:
     output: true
     permalink: /:collection/:title/
   recipes:
+    defaults:
+      layout: page
     output: true
     permalink: /:collection/:title/
   reviews:
+    defaults:
+      layout: page
     output: true
     permalink: /:collection/:title/
 # -----------------------------------------------------------------------------
