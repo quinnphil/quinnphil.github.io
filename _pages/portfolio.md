@@ -4,7 +4,7 @@ title: portfolio
 permalink: /portfolio/
 description: Collection of my work.
 nav: true
-nav_order: 3
+nav_order: 20
 display_categories: [medway, interests]
 horizontal: false
 ---

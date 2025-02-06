@@ -4,7 +4,7 @@ permalink: /organisations/
 title: organisations
 description: Organisations I have worked with.
 nav: true
-nav_order: 7
+nav_order: 50
 
 organisations:
   - name: "Live Nation"

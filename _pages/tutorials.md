@@ -4,7 +4,7 @@ title: tutorials
 permalink: /tutorials/
 description: Tutorials and how-to documents
 nav: true
-nav_order: 4
+nav_order: 30
 display_categories: [tutorial]
 horizontal: false
 ---

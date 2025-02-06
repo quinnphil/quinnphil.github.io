@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /recipes/
-title: Recipes
+title: recipes
 description: Recipes
 nav: false
-nav_order: 7
+nav_order: 9
 ---
 TODO
