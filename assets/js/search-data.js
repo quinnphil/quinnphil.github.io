@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-reviews",
           title: "reviews",
-          description: "Reviews of products and services I have used.",
+          description: "Reviews of products and services",
           section: "Navigation",
           handler: () => {
             window.location.href = "/reviews/";
@@ -88,6 +88,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/Du-Bois-Visualisation-Challenge/";
+            },},{id: "news-chinese-festival-chatham",
+          title: 'Chinese Festival Chatham',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/Chinese-festival-Chatham/";
             },},{id: "projects-fsa-ratings-for-medway",
           title: 'FSA Ratings for Medway',
           description: "Food Standard Agency ratings for organisations in Medway",
@@ -103,7 +108,10 @@ ninja.data = [{
           description: "Test recipe",
           section: "Recipes",handler: () => {
               window.location.href = "/recipes/baked_beans_on_toast/";
-            },},{
+            },},{id: "reviews-munro-careers-is-a-career-coaching-service-based-in-buckinghamshire-led-by-karen-munro-a-professionally-qualified-career-guide-after-finding-myself-in-a-bit-of-a-dead-end-with-my-job-seeking-an-ex-colleague-who-previously-had-success-with-karen-s-methods-recommended-her-services-since-i-began-looking-for-a-new-role-late-last-year-i-had-been-sending-off-my-cv-with-little-success-despite-my-wealth-of-experience-at-world-class-organisations-and-having-a-range-of-technical-skills-i-received-very-few-responses-and-even-fewer-invitations-to-interview-with-prospective-employers-the-lack-of-feedback-was-frustrating-it-was-clear-that-my-cv-was-not-doing-enough-to-make-it-onto-hiring-managers-shortlists-over-two-conversations-karen-patiently-listened-to-understand-my-career-needs-she-then-followed-up-by-outlining-the-services-she-could-offer-to-help-improve-my-chance-of-getting-my-noticed-in-this-tough-job-market-and-age-of-ai-screening-tools-i-decided-to-use-the-offline-cv-review-service-the-critique-of-my-cv-was-both-professional-and-honest-karen-provided-me-with-direct-actionable-feedback-to-help-me-reshape-my-cv-and-highlight-how-my-experience-aligns-with-the-roles-i-am-apply-to-as-a-result-i-am-now-sending-out-tailored-cvs-that-give-me-a-much-greater-confidence-in-how-i-am-presenting-my-skills-to-prospective-employers-i-m-looking-forward-to-starting-a-new-role-soon-munro-careers-offers-a-range-of-career-services-not-just-cv-reviews-if-you-are-looking-to-make-a-change-in-your-career-why-not-book-a-free-consultation-conversation-today",
+          title: 'Munro Careers is a career coaching service based in Buckinghamshire led by Karen...',
+          description: "Review of career coaching services by Munro Careers",
+          section: "Reviews",},{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
