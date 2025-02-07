@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-powershell-bulk-rename-file-extension",
+            },{id: "post-python-lambda-function-to-return-row-numbers-that-are-in-a-fibonacci-sequence",
+      
+        title: "Python lambda function to return row numbers that are in a Fibonacci Sequence...",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/pandas-fibonacci-rows/";
+        
+      },
+    },{id: "post-powershell-bulk-rename-file-extension",
       
         title: "Powershell - Bulk rename file extension",
       
@@ -88,11 +99,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/Du-Bois-Visualisation-Challenge/";
-            },},{id: "news-chinese-festival-chatham",
-          title: 'Chinese Festival Chatham',
+            },},{id: "news-chinese-festival-chatham-this-weekend",
+          title: 'Chinese Festival Chatham this weekend',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/Chinese-festival-Chatham/";
+              window.location.href = "/news/Chinese-Festival-Chatham/";
             },},{id: "projects-fsa-ratings-for-medway",
           title: 'FSA Ratings for Medway',
           description: "Food Standard Agency ratings for organisations in Medway",
