@@ -31,13 +31,14 @@ organisations:
     url: "https://www.academymusicgroup.com/company/"
     logo: /logo/amg.png
     decription: "Academy Music Group (AMG) is the UK’s leading owner and operator of nationwide live music and club venue."
+    background_color: "#000000"
   - name: "Festival Republic"
     url: "https://www.festivalrepublic.com/"
-    logo: /logo/amg.png
+    logo: /logo/festival_republic.png
     decription: "Festival Republic is the UK’s leading festival and event promoter."
   - name: "AtkinsRéalis"
     url: "https://www.atkinsrealis.com/"
-    logo: /logo/atkins_réalis.png
+    logo: /logo/atkinsréalis.png
     decription: "A world-class engineering services and nuclear organization"
   - name: "Department for Transport"
     url: "https://www.gov.uk/government/organisations/department-for-transport"
@@ -45,15 +46,16 @@ organisations:
     decription: "The Department for Transport (DfT) is ministerial department responsible for the English transport network."
   - name: "The Charity Commission"
     url: "https://www.gov.uk/government/organisations/charity-commission"
-    logo: /logo/charity_commission.png
+    logo: /logo/charity_commission.svg
     decription: "The Charty Commision register and regulate charities in England and Wales, to ensure that the public can support charities with confidence."
   - name: "Swindon Borough Council"
     url: "https://www.swindon.gov.uk/"
     logo: /logo/swindon_borough_council.svg
     decription: "Local authority in Wiltshire, England"
+    background_color: "#f47b20"
   - name: "Equiinet"
     url: "https://www.equiinet.com/about"
-    logo: /logo/swindon_council.png
+    logo: /logo/equiinet.png
     decription: "Equiinet provide managed router solutions to businesses. "
   - name: "npower"
     url: "https://www.eonnext.com/npower-information"

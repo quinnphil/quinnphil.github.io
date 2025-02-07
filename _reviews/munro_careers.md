@@ -3,12 +3,12 @@ layout: page
 title: Munro Careers
 description: Review of career coaching services by Munro Careers 
 date: 2025-02-06T19:09:31+0000 GMT
-inline: false
+inline: true
 related_posts: false
 tags: career
 category: review
 giscus_comments: false
-img: assets/img/logo/microsoft_excel.png
+img: /logo/munro_careers.png
 ---
 
 Munro Careers is a career coaching service based in Buckinghamshire led by Karen Munro, a professionally qualified career guide.  After finding myself in a bit of a dead-end with my job seeking, an ex-colleague who previously had success with Karen’s methods recommended her services.
