@@ -104,6 +104,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/Chinese-Festival-Chatham/";
+            },},{id: "news-christie-39-s-ai-art-exhibition-20-february-to-5-march",
+          title: 'Christie&amp;#39;s AI Art Exhibition 20 February to 5 March',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/Christies-AI-Art-Exhibition/";
             },},{id: "projects-fsa-ratings-for-medway",
           title: 'FSA Ratings for Medway',
           description: "Food Standard Agency ratings for organisations in Medway",
