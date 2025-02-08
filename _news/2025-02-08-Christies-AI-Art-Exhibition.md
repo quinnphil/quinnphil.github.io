@@ -4,7 +4,7 @@ title: Christie's AI Art Exhibition 20 February to 5 March
 date: 2025-02-07T12:00:00+0000 GMT
 inline: false
 related_posts: false
-tags: medway
+tags: ai art
 ---
 Christie’s New York has [announced]((https://www.christies.com/en/stories/what-is-ai-art-augmented-intelligence-36dc0897d3584268b5102468a3bf8a8c)) its inaugural AI art auction, Augmented Intelligence.  This is billed as the first ever artificial intelligence-dedicated sale at a major auction house.  This will run from 20 February to 5 March 2025.  A concurrent exhibition will be held at Christie’s Rockefeller Center galleries.  There will also be an online sale.
 
